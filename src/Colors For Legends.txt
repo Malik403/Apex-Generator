@@ -1,0 +1,55 @@
+Bangalore: Light brown, black
+
+Rev: Red and Black
+
+Fuse: Red, Black, Brown?
+
+Mad Maggie: White, Brown
+
+Balistic: Dark blue and light blue
+
+PathFinder: Blue and Black
+
+Wraith: Black and Purple
+
+Octane: Green, White, Black
+
+Horizon: Light Green, White
+
+Ash: Blue and Brown
+
+Alter: Green and Purple
+
+Bloodhound: Brown, Green - Have a moving Bird on top of the Box? When they move to the next page, the bird flies out and move onto the next block (White Raven)
+
+Crypto: White and Light Green
+
+Valkyrie: Orange and Black
+
+Seer: Dark blue and Yellow-ish (Gold)
+
+Vantage: Black and Brown-ish 
+
+Sparrow: White and Red
+
+Gibby: Grey and White
+
+Lifeline: White, Purple, Grey-ish
+
+Mirage: Orange-ish and Black - Have Decoys on the sides of the box and if clicked, it says "BamBoozled'
+
+Loba: White
+
+Newcastle: White, Purple
+
+Conduit: Lime Green
+
+Caustic: Brown-ish yellow
+
+Wattson: Brown-ish orange and White
+
+Rampart: Red
+
+Catalyst: light Blue and Black
+
+Just have each character emoting inside of the Legend DIV? And other stuff for the other DIVs

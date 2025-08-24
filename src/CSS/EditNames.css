@@ -1,0 +1,182 @@
+#EditNamesLegendsBlock {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(0, 0, 0);
+    display:  none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5%;
+    border: 1px solid var(--BorderColor);
+    overflow: auto;
+
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border-radius: 20px;                  /* smooth rounded corners */
+    padding: 30px;
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */
+    color: #c8ffc8;   
+
+    animation: pulse-glowMain 2s infinite ease-in-out;
+}
+
+#Title {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    transform: translate(0%, -50%);
+}
+
+#HowMPlayers {
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 100%;
+    transform: translate(0%, -10%);
+    justify-content: center;
+    align-items: center;
+}
+#PlayerSelection {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#OnePlayerSelected {
+    width: 15%;
+    height: 15%;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+    border-radius: 5%;
+    overflow: auto;
+    position: absolute;
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border: 1px solid var(--BorderColor);            /* neon green border */
+    border-radius: 20px;                  /* smooth rounded corners */
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */
+
+    animation: pulse-glowMain 2s infinite ease-in-out;
+}
+
+#BackButtonOnePlayer {
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    display: flex;
+}
+#BackButtonOnePlayer:hover {
+    cursor: pointer;
+}
+#TitlePlayer {
+    color: white;
+    top: 0%;
+    position: absolute;
+    display: flex;
+}
+#SubmitButton {
+    background: rgba(20, 20, 20, 0.85);   /* semi-transparent dark */
+  color: var(--ButtonColor);                       /* pale greenish white */
+  border: 2px solid var(--BorderColor);            /* neon green border */
+  border-radius: 12px;                  /* rounded edges */
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Orbitron", sans-serif;  /* futuristic font (Google Fonts) */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 6px var(--ButtonColor);
+  position: absolute;
+  bottom: 10%;
+}
+#SubmitButton:hover {
+    background: var(--HoverColor);  /* light green tint */
+  color: #ffffff;
+  box-shadow: 0 0 12px var(--HoverColor);         /* stronger glow */
+}
+
+#TwoPlayersSelected {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 70%;
+    border-radius: 5%;
+    overflow: auto;
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border: 1px solid var(--BorderColor);            /* neon green border */
+    border-radius: 20px;                  /* smooth rounded corners */
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */  
+
+    animation: pulse-glowMain 2s infinite ease-in-out;
+}
+
+#ThreePlayersSelected {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 67%;
+    top: 50%;
+    border-radius: 5%;
+    overflow: auto;
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border: 1px solid var(--BorderColor);
+    border-radius: 20px;                  /* smooth rounded corners */
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */
+
+    animation: pulse-glowMain 2s infinite ease-in-out;
+}
+
+.EditNamesSelection {
+  width: 60%;
+  height: 25%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--BorderColor);
+  background: rgba(0, 0, 0, 0.35);  /* semi-transparent */
+  backdrop-filter: blur(10px);        /* glass blur */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  color: white;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.2s ease;
+  position: absolute;
+  left: 21%;
+  bottom: 15%;
+
+}
+
+select:hover, select:focus {
+  background: rgba(0, 0, 0, 0.5);
+    outline: none;            /* stop the white glow */
+}

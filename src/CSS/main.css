@@ -1,0 +1,30 @@
+html, body {
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --BorderColor: #00ff44;
+  --KeyFrameColor1: rgba(0, 255, 102, 0.3);
+  --KeyFrameColor2: rgba(0, 255, 13, 0.8);
+  --KeyFrameColor3: rgba(13, 165, 74, 0.3);
+  --SectionColor: green;
+  --ButtonColor: #00ff66;
+  --HoverColor: rgba(0, 255, 102, 0.15);
+  --TitleColor: rgb(13, 255, 0);
+  --NavButtons: rgba(0, 255, 102, 0.15);
+  --NavButtonsShadow: #00ff66;
+  /* Border Color + Keyframe is one color. SectionColor is another */
+}
+
+@keyframes pulse-glowMain {
+  0% {
+    box-shadow: 0 0 15px var(--KeyFrameColor1)
+  }
+  50% {
+    box-shadow: 0 0 100px var(--KeyFrameColor2)
+  }
+  100% {
+    box-shadow: 0 0 15px var(--KeyFrameColor3)
+  }
+}

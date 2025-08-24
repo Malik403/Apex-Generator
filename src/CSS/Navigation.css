@@ -1,0 +1,40 @@
+#NavBar:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#NavBlock {
+  display: flex;
+  width: 45%; /* Or any desired width */
+  height: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute; /* Or 'fixed' if you want it to stay when scrolling */
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.ButtonsIndividual {
+  background: rgba(20, 20, 20, 0.85);   /* semi-transparent dark */
+  color: #ffffff;                       /* pale greenish white */
+  border: 2px solid var(--BorderColor);            /* neon green border */
+  border-radius: 12px;                  /* rounded edges */
+  padding: 8px 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Orbitron", sans-serif;  /* futuristic font (Google Fonts) */
+  cursor: pointer;
+  font-size: 80%;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 6px var(--BorderColor);          /* subtle glow */
+}
+
+.ButtonsIndividual:hover {
+  background: var(--NavButtons);  /* light green tint */
+  color: #000000;
+  box-shadow: 0 0 12px var(--NavButtonsShadow);         /* stronger glow */
+}

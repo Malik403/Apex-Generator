@@ -1,0 +1,27 @@
+#BugReport {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5%;
+    overflow: auto;
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border: 1px solid var(--BorderColor);            /* neon green border */
+    border-radius: 20px;                  /* smooth rounded corners */
+    padding: 20px;
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */
+    animation: pulse-glowMain 5s infinite ease-in-out;
+    color: white;
+}
+#DiscordLogo {
+    width: 100px;
+    border-radius: 50%;
+}

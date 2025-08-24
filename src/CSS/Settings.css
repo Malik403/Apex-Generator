@@ -1,0 +1,75 @@
+#SettingBlock {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    border-radius: 5%;
+    overflow: auto;
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border: 1px solid var(--BorderColor);            /* neon green border */
+    border-radius: 20px;                  /* smooth rounded corners */
+    padding: 20px;
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */
+    color: #c8ffc8;   
+    animation: pulse-glowMain 5s infinite ease-in-out;
+}
+
+
+#SettingsTitle {
+    top: 0%;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+#LiveWallpapers {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    color: var(--SectionColor)
+}
+#LiveWallpaperBlock {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+}
+#ImageBlock1 {
+    width: 20%;
+    margin: 20px;
+    cursor: pointer;
+}
+#Colors {
+    position: absolute;
+    left: 1%;
+    bottom: -195%;
+}
+#ColorButtons {
+    position: relative;
+    display: grid;
+    top: 40px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-flow: row;
+    width: 60%;
+}
+#ColorTheme {
+    color: var(--TitleColor);
+}
+#StillWallpaprTitle {
+    position: absolute;
+    text-align: center;
+    bottom: 3%;
+    left: 1%;
+    color: var(--SectionColor);
+}
+#StillWallpapersBlock {
+    position: absolute;
+    left: 0%;
+    bottom: -185%;
+}

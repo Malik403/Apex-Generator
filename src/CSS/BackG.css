@@ -1,0 +1,22 @@
+#BackgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    filter: brightness(25%);
+}
+
+#StillWallpaper {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    display: none;
+    filter: brightness(25%);
+}

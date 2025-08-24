@@ -1,0 +1,109 @@
+#GeneratorBlock {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    border-radius: 5%;
+    overflow: auto;
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border: 1px solid var(--BorderColor);            /* neon green border */
+    border-radius: 20px;                  /* smooth rounded corners */
+    padding: 20px;
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */
+    animation: pulse-glowMain 5s infinite ease-in-out;
+}
+#GenerateButton {
+    position: absolute;
+    top: 70%;
+    left: 37%;
+}
+#ChoosingPlayer2 {
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+    width: 40%;
+}
+#GeneratingVideo {
+    display: none;
+    width: 1280px;
+    height: 720px;
+    z-index: 5;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+#NameElement {
+  display: flex;
+  justify-content: center; /* center text horizontally */
+  align-items: center;     /* center vertically if needed */
+  text-align: center;
+  width: 200px;  /* your box width */
+  height: 40px;  /* your box height */
+  color: white;
+  position: absolute;
+  bottom: 225px;
+  left: 540px;
+}
+#ContinueElement {
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    color: white;
+}
+#FirstGun {
+    position: absolute;
+    z-index: 6;
+    width: 20%;
+    left: 12.5%;
+    top: 30%;
+    opacity: .5;
+    transform-style: preserve-3d;
+    perspective: 1000px; /* gives depth */
+}
+#SecondGun {
+    position: absolute;
+    z-index: 6;
+}
+#OneGunElement {
+  display: flex;
+  justify-content: center; /* center text horizontally */
+  align-items: center;     /* center vertically if needed */
+  text-align: center;
+  width: 200px;  /* your box width */
+  height: 40px;  /* your box height */
+  color: white;
+  position: absolute;
+  bottom: 242.5px;
+  left: 172px;
+}
+#SecondGun {
+    position: absolute;
+    z-index: 6;
+    width: 20%;
+    right: 15%;
+    top: 30%;
+    opacity: .5;
+    transform-style: preserve-3d;
+    perspective: 1000px; /* gives depth */
+}
+#SecondGunElement {
+  display: flex;
+  justify-content: center; /* center text horizontally */
+  align-items: center;     /* center vertically if needed */
+  text-align: center;
+  width: 200px;  /* your box width */
+  height: 40px;  /* your box height */
+  color: white;
+  position: absolute;
+  bottom: 245px;
+  right: 219px;
+}

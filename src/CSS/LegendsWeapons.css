@@ -1,0 +1,134 @@
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+#LegendsWeapo {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    border-radius: 5%;
+    overflow: auto;
+
+    background: rgba(10, 10, 10, 0.6);    /* dark semi-transparent bg */
+    border: 1px solid var(--BorderColor);            /* neon green border */
+    border-radius: 20px;                  /* smooth rounded corners */
+    padding: 20px;
+    margin: 20px;
+    backdrop-filter: blur(4px);           /* gives it a frosted glass effect */
+}
+
+#LegendsWeapo {
+  animation: pulse-glowMain 5s infinite ease-in-out;
+}
+#ChoosingPlayer {
+    top: 3%;
+    position: absolute;
+}
+#LegendsTitle {
+    color: var(--TitleColor);
+    left: 1%;
+    top: 5%;
+    font-size: 200%;
+    position: absolute;
+}
+.PicturesLegends {
+    width: 6%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+#LegendPictures {
+    position: absolute;
+    left: 1%;
+    top: 15%;
+}
+#WeaponsTitle {
+    color: var(--TitleColor);
+    font-size: 200%;
+    position: absolute;
+    left: 1%;
+    top: 60%;
+}
+.PicturesWeapons {
+    width: 6%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+#WeaponPictures {
+    position: absolute;
+    left: 1%;
+    top: 70%;
+}
+.select-all-btn {
+  background: rgba(20, 20, 20, 0.85);   /* semi-transparent dark */
+  color: #ffc8c8;                       /* pale greenish white */
+  border: 2px solid var(--BorderColor);            /* neon green border */
+  border-radius: 12px;                  /* rounded edges */
+  padding: 8px 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Orbitron", sans-serif;  /* futuristic font (Google Fonts) */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  margin-right: 59px;
+  top: -30px;
+}
+
+.select-all-btn:hover {
+  background: var(--HoverColor);  /* light green tint */
+  color: #ffffff;
+  box-shadow: 0 0 12px var(--HoverColor);         /* stronger glow */
+}
+
+.apex-select {
+  width: 200%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--BorderColor);
+  background: rgba(0, 0, 0, 0.35);  /* semi-transparent */
+  backdrop-filter: blur(10px);        /* glass blur */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  color: white;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.2s ease;
+}
+
+.apex-select:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-wrapper {
+  position: relative;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+select option {
+  background: rgba(0, 0, 0, 0.85); /* darker transparent black */
+  color: var(--ButtonColor); /* neon green text */
+  padding: 8px;
+}
+
+#QuickButtonsLegends {
+  position: absolute;
+  right: 0%;
+}
+#QuickButtonsWeapons {
+    position: absolute;
+    bottom: -10%;
+    right: 0%;
+}
