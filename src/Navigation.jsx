@@ -172,7 +172,6 @@ export default function Nav() {
 
             // Showing Element
             setTimeout(FadeIn, 300, "BugReport")
-            Settings = 1;
 
             Dimming_Brightening(25)
 
